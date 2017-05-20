@@ -1,10 +1,7 @@
 server:
-  rootPath: /api/*
-  registerDefaultExceptionMappers: false
-  applicationConnectors:
-    - type: http
-      port: 9090
-logging:
-  level: INFO
-  loggers:
-    com.javaeeeee: DEBUG
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
