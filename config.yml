@@ -1,0 +1,10 @@
+server:
+  rootPath: /api/*
+  registerDefaultExceptionMappers: false
+  applicationConnectors:
+    - type: http
+      port: 9090
+logging:
+  level: INFO
+  loggers:
+    com.javaeeeee: DEBUG
